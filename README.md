@@ -1,5 +1,5 @@
 # VCProcessor
-Converts from/to PDF/png, jpg, gif formats in order to build PDF booklets, managing paper sizes and some basic options.
+Converts from/to PDF/png,jpg,gif formats in order to build PDF booklets, managing paper sizes and some basic options.
 
 ## Tools
 
@@ -37,7 +37,7 @@ process(filename, fpath, fext, delete_it=False, margin=(0, 0), cache=True, paper
 % python.exe .\img2pdf.py -mx 7 -my 7 .\Croquis\Alicante\ -p A5
 ```
 
-Creates the pdf for each files in the input directory, with a margin of 7mm in all sides, on a A5 page.
+Creates the pdf for each files in the input directory, with a margin of `7`mm in all sides, on a `A5` page.
 
 ### pdf2img
 
@@ -67,7 +67,7 @@ Creates the image for each PDF found in `input directory`, and tags the output f
 
 ### gen_book
 
-Get the files in the `input dir`, build a PDF book concatenating all the files. Created to build the VC booklet of info, so if you passed the -o switch, only process the official files (original info files.)
+Get the files in the `input dir`, build a PDF book concatenating all the files. Created to build the VC booklet of info, so if you passed the `-o` switch, only process the official files (original info files.)
 
 ```
 process(filelist, fname, vc_files=[])
@@ -85,5 +85,5 @@ process(filelist, fname, vc_files=[])
 % python.exe .\gen_book.py -o ".\Croquis\Madrid\Pedriza\Cancho de los Muertos" muertos.pdf
 ```
 
-Creates a booklet called muertos.pdf, with only the original VC files, from the input dir.
+Creates a booklet called `muertos.pdf`, with only the original VC files, from the `input dir`.
 
