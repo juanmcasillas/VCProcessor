@@ -1,0 +1,2 @@
+export DYLD_LIBRARY_PATH=/opt/pdflabs/pdftk/lib:$DYLD_LIBRARY_PATH
+
