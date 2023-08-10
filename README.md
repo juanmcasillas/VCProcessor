@@ -26,7 +26,7 @@ process(filename, fpath, fext, delete_it=False, margin=(0, 0), cache=True, paper
         fext (str): file's extension (.jpg, .png)
         delete_it (bool, optional): delete the original file after processing. Defaults to False.
         margin (tuple, optional): X and Y margin, in mm. Defaults to (0,0).
-        cache (bool, optional): If cache, don't create output the file if previously exists. Defaults to True.
+        cache (bool, optional): If cache, don't create output the file if previously exists. Default=True.
         paper (str, optional): Size of the PDF paper. Defaults to 'A4'.
 ```
 
@@ -52,7 +52,7 @@ process(filename, fpath, fext, delete_it=False, cache=True, tag='exp')
         fpath (str): the full path, without extension
         fext (str): file's extension (.jpg, .png)
         delete_it (bool, optional): delete the original file after processing. Defaults to False.
-        cache (bool, optional): If cache, don't create output the file if previously exists. Defaults to True.
+        cache (bool, optional): If cache, don't create output the file if previously exists. Default=True.
         tag (str, optional): Add the tag value inside the output file name. Defaults to 'exp'.
 ```
 
